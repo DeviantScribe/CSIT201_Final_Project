@@ -1,1 +1,41 @@
+.container {
+	text-align: center;
+}
 
+.page-name {
+	font-size: 50px;
+	color: yellow;
+	background-color: orange;
+	padding: 20px 30px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav {
+	font-size: 40px;
+	color: white;
+	background-color: darkorange;
+	padding: 20px 30px;
+}
+
+/*unvisited link*/
+a:link {
+	color: red;
+}
+
+/*visited link*/
+a:visited {
+	color: green;
+}
+
+/*mouse over link*/
+a:hover {
+	color: hotpink;
+}
+
+/*selected link*/
+a:active {
+	color: darkblue;
+}
