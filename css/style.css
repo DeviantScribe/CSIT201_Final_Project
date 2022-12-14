@@ -1,12 +1,41 @@
-.container {
-	text-align: center;
+body {
+	background: url("../html/bakingbackground.png") no-repeat;
+	background-size: 1600px;
 }
 
-.page-name {
-	font-size: 50px;
-	color: yellow;
+.container {
+	text-align: center;
+	width: 70%;
+	background-color: ghostwhite;
+	padding-bottom: 20px;
+}
+
+.main-banner {
+	background: url("../html/pastrybanner.jpg") no-repeat;
+	background-size: 100%;
+}
+
+.banner1 {
+	background: url("../html/chocolatechipcookies2.jpg") no-repeat;
+	background-size: 100%;
+}
+
+.banner2 {
+	background: url("../html/shortbreadbrownies2.jpg") no-repeat;
+	background-size: 100%;
+}
+
+.transparent {
 	background-color: orange;
+	opacity: 0.7;
 	padding: 20px 30px;
+}
+
+.banner-text {
+	position: relative;
+	font-size: 80px;
+	color: white;
+	opacity: 1.0;
 }
 
 nav a {
@@ -15,32 +44,201 @@ nav a {
 
 nav {
 	font-size: 40px;
-	color: white;
 	background-color: darkorange;
 	padding: 20px 30px;
 }
 
 p {
-	font-size: 16px;
-}
-
-.recipe-content {
-	text-align: left;
-	width: 50%;
-	/*padding-left: 30%;*/
-}
-
-h1 {
-	text-align: center;
-}
-
-h2 {
-	text-align: center;
 	font-size: 20px;
 }
 
+ol {
+	font-size: 20px;
+}
+
+ul {
+	font-size: 20px;
+}
+
+footer {
+	font-style: italic;
+	color: gray;
+}
+
+/*-----LINKS-----*/
+
+/*unvisited link*/
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+	color: green;
+}
+
+/*mouse over link*/
+a:hover {
+	color: red;
+}
+
+/*selected link*/
+a:active {
+	color: blue;
+}
+
+/*unvisited nav*/
+.nav-text {
+	color: white;
+}
+
+/*visited nav*/
+.nav-text:visited {
+	color: green;
+}
+
+/*mouse over nav*/
+.nav-text:hover {
+	color: yellow;
+}
+
+/*selected nav*/
+.nav-text:active {
+	color: blue;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 31%);
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 4.5%;
+	grid-gap: 10px;
+}
+
+/*-----BUTTONS-----*/
+
+.button1 {
+	border-style: solid;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
+	background-size: 100%;
+}
+.button1:link {
+	border-color: black;
+	color: white;
+}
+.button1:visited {
+	border-color: green;
+}
+.button1:hover {
+	border-color: red;
+}
+.button1:active {
+	border-color: royalblue;
+}
+
+.button2 {
+	border-style: solid;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url("../html/shortbreadbrownies1.jpg") no-repeat;
+	background-size: 100%;
+}
+.button2:link {
+	border-color: black;
+	color: white;
+}
+.button2:visited {
+	border-color: green;
+}
+.button2:hover {
+	border-color: red;
+}
+.button2:active {
+	border-color: royalblue;
+}
+
+.button3 {
+	border-style: solid;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
+	background-size: 100%;
+}
+.button3:link {
+	border-color: black;
+	color: white;
+}
+.button3:visited {
+	border-color: green;
+}
+.button3:hover {
+	border-color: red;
+}
+.button3:active {
+	border-color: royalblue;
+}
+
+.button4 {
+	border-style: solid;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
+	background-size: 100%;
+}
+.button4:link {
+	border-color: black;
+	color: white;
+}
+.button4:visited {
+	border-color: green;
+}
+.button4:hover {
+	border-color: red;
+}
+.button4:active {
+	border-color: royalblue;
+}
+
+.button5 {
+	border-style: solid;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
+	background-size: 100%;
+}
+.button5:link {
+	border-color: black;
+	color: white;
+}
+.button5:visited {
+	border-color: green;
+}
+.button5:hover {
+	border-color: red;
+}
+.button5:active {
+	border-color: royalblue;
+}
+
+/*-----TABLE-----*/
+
 table {
 	width: 100%;
+	font-size: 20px;
 }
 
 table, th, td {
@@ -55,22 +253,16 @@ td {
 	background-color: orange;
 }
 
-/*unvisited link*/
-a:link {
-	color: red;
+.recipe-content {
+	text-align: left;
+	padding: 0px 20px 10px 20px;
 }
 
-/*visited link*/
-a:visited {
-	color: green;
+h1 {
+	text-align: center;
 }
 
-/*mouse over link*/
-a:hover {
-	color: hotpink;
-}
-
-/*selected link*/
-a:active {
-	color: darkblue;
+h2 {
+	text-align: center;
+	font-size: 20px;
 }
