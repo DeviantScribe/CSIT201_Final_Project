@@ -1,5 +1,5 @@
 body {
-	background: url("../html/bakingbackground.png") no-repeat;
+	background: url("../html/bakingbackground.png");
 	background-size: 1600px;
 }
 
@@ -31,12 +31,12 @@ body {
 }
 
 .banner4 {
-	background: url("../html/chocolatechipcookies2.jpg") no-repeat;
+	background: url("../html/blueberrycheesecake2.jpg") no-repeat;
 	background-size: 1080px;
 }
 
 .banner5 {
-	background: url("../html/chocolatechipcookies2.jpg") no-repeat;
+	background: url("../html/macarons2.jpg") no-repeat;
 	background-size: 1080px;
 }
 
@@ -208,7 +208,7 @@ a:active {
 
 .button4 {
 	border-style: solid;
-	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
+	background: url("../html/blueberrycheesecake1.jpg") no-repeat;
 	background-size: 320px;
 	height: 320px;
 }
@@ -228,7 +228,7 @@ a:active {
 
 .button5 {
 	border-style: solid;
-	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
+	background: url("../html/macarons1.jpg") no-repeat;
 	background-size: 320px;
 	height: 320px;
 }
