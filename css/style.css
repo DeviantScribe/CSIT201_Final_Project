@@ -6,36 +6,45 @@ body {
 .container {
 	text-align: center;
 	width: 70%;
-	background-color: ghostwhite;
+	background-color: rgba(255, 166, 0, 0.8);
 	padding-bottom: 20px;
 }
 
 .main-banner {
 	background: url("../html/pastrybanner.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 1080px;
 }
 
 .banner1 {
 	background: url("../html/chocolatechipcookies2.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 1080px;
 }
 
 .banner2 {
 	background: url("../html/shortbreadbrownies2.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 1080px;
 }
 
-.transparent {
-	background-color: orange;
-	opacity: 0.7;
-	padding: 20px 30px;
+.banner3 {
+	background: url("../html/banoffeepie2.jpg") no-repeat;
+	background-size: 1080px;
+}
+
+.banner4 {
+	background: url("../html/chocolatechipcookies2.jpg") no-repeat;
+	background-size: 1080px;
+}
+
+.banner5 {
+	background: url("../html/chocolatechipcookies2.jpg") no-repeat;
+	background-size: 1080px;
 }
 
 .banner-text {
-	position: relative;
+	background-color: rgba(255, 166, 0, 0.5);
 	font-size: 80px;
 	color: white;
-	opacity: 1.0;
+	padding: 20px 30px;
 }
 
 nav a {
@@ -46,6 +55,15 @@ nav {
 	font-size: 40px;
 	background-color: darkorange;
 	padding: 20px 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
 }
 
 p {
@@ -62,7 +80,7 @@ ul {
 
 footer {
 	font-style: italic;
-	color: gray;
+	color: rgb(50, 50, 50);
 }
 
 /*-----LINKS-----*/
@@ -80,7 +98,7 @@ a:visited {
 
 /*mouse over link*/
 a:hover {
-	color: red;
+	color: yellow;
 }
 
 /*selected link*/
@@ -117,26 +135,32 @@ a:active {
 	grid-gap: 10px;
 }
 
+.button-text {
+	font-size: 22px;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	padding-top: 5%;
+	background-color: rgba(255, 166, 0, 0.3);
+	height: 100%;
+}
+
 /*-----BUTTONS-----*/
 
 .button1 {
 	border-style: solid;
-	text-decoration: none;
-	text-shadow: 1px 1px black;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 320px;
+	height: 320px;
 }
 .button1:link {
-	border-color: black;
+	border-color: darkorange;
 	color: white;
 }
 .button1:visited {
 	border-color: green;
 }
 .button1:hover {
-	border-color: red;
+	border-color: yellow;
 }
 .button1:active {
 	border-color: royalblue;
@@ -144,22 +168,19 @@ a:active {
 
 .button2 {
 	border-style: solid;
-	text-decoration: none;
-	text-shadow: 1px 1px black;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	background: url("../html/shortbreadbrownies1.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 320px;
+	height: 320px;
 }
 .button2:link {
-	border-color: black;
+	border-color: darkorange;
 	color: white;
 }
 .button2:visited {
 	border-color: green;
 }
 .button2:hover {
-	border-color: red;
+	border-color: yellow;
 }
 .button2:active {
 	border-color: royalblue;
@@ -167,22 +188,19 @@ a:active {
 
 .button3 {
 	border-style: solid;
-	text-decoration: none;
-	text-shadow: 1px 1px black;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
-	background-size: 100%;
+	background: url("../html/banoffeepie1.jpg") no-repeat;
+	background-size: 320px;
+	height: 320px;
 }
 .button3:link {
-	border-color: black;
+	border-color: darkorange;
 	color: white;
 }
 .button3:visited {
 	border-color: green;
 }
 .button3:hover {
-	border-color: red;
+	border-color: yellow;
 }
 .button3:active {
 	border-color: royalblue;
@@ -190,22 +208,19 @@ a:active {
 
 .button4 {
 	border-style: solid;
-	text-decoration: none;
-	text-shadow: 1px 1px black;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 320px;
+	height: 320px;
 }
 .button4:link {
-	border-color: black;
+	border-color: darkorange;
 	color: white;
 }
 .button4:visited {
 	border-color: green;
 }
 .button4:hover {
-	border-color: red;
+	border-color: yellow;
 }
 .button4:active {
 	border-color: royalblue;
@@ -213,22 +228,19 @@ a:active {
 
 .button5 {
 	border-style: solid;
-	text-decoration: none;
-	text-shadow: 1px 1px black;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	background: url("../html/chocolatechipcookies1.jpg") no-repeat;
-	background-size: 100%;
+	background-size: 320px;
+	height: 320px;
 }
 .button5:link {
-	border-color: black;
+	border-color: darkorange;
 	color: white;
 }
 .button5:visited {
 	border-color: green;
 }
 .button5:hover {
-	border-color: red;
+	border-color: yellow;
 }
 .button5:active {
 	border-color: royalblue;
@@ -242,27 +254,19 @@ table {
 }
 
 table, th, td {
+	border: 1px solid dimgray;
 	border-collapse: collapse;
 }
 
 th {
-	background-color: darkorange;
+	background-color: rgba(255, 140, 0, 0.5);
 }
 
 td {
-	background-color: orange;
+	background-color: rgba(255, 166, 0, 0.5);
 }
 
 .recipe-content {
 	text-align: left;
 	padding: 0px 20px 10px 20px;
-}
-
-h1 {
-	text-align: center;
-}
-
-h2 {
-	text-align: center;
-	font-size: 20px;
 }
