@@ -1,70 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="A CSIT201 web development project final requirement.">
     <meta name="author" content="Carl Piramide, Jedidiah Ramos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore Baking | A CSIT201 Project</title>
-    <link rel="icon" href="files/img/icon.png">
+    <title> Baking Express | A CSIT201 Project </title>
+    <link rel="icon" href="media/img/icons-logos/web-icon.png">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/webscript.js"></script>
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="smallscreen.css">
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
-
   <body>
-    <center>
-      <div class="container">
-
-        <nav>
-          <a href="index.html"><span class="nav-text">Home</span></a> &nbsp;
-          <a href="recipes.html"><span class="nav-text">Recipes</span></a> &nbsp;
-          <a href="contact.html"><span class="nav-text">Contact</span></a>
-        </nav>
-        
-        <header class="main-banner">
-          <div class="banner-text">
-            EXPLORE BAKING
-            <p>
-              Your one-stop shop for all sorts of baking recipes,<br>
-              from classic recipes for beginners to new, exotic finds for the adventurous,<br>
-              Explore Baking is a haven for bakers of all kinds.
-            </p>
-          </div>
-        </header>
-        
-        <main>
-
-          <h1>Latest</h1>
-
-          <ul>
-            <li>
-              <a href="recipe5.html">MACARONS</a>
-            </li>
-            <li>
-              <a href="recipe4.html">BLUEBERRY CHEESECAKE</a>
-            </li>
-          </ul>
-
-          <h1>Popular</h1>
-
-          <ul>
-            <li>
-              <a href="recipe1.html">MRS. FIELDS CHOCOLATE CHIP COOKIES</a>
-            </li>
-            <li>
-              <a href="recipe2.html">SHORTBREAD BROWNIES</a>
-            </li>
-          </ul>
-
-        </main>
-
-        <footer>
-          Copyright &copy; 2022 jedidiah.ramos@cit.edu & carlvincent.piramide@cit.edu
-        </footer>
-
+    <header>
+      <nav class="navigation-bar">
+        <div id="website-logo">
+          <a href="index.html" id="title-logo"> <img src="media/img/icons-logos/web-logo.png" height="50" alt="logo"></a>
+        </div>
+        <div id="navigation-links">
+          <a href="index.html" class="navigation-item-focused"> <img src="media/img/icons-logos/home-ico.png" height="24" width="24"> Home </a>
+          <a href="html/recipe-page.html" class="navigation-item"> <img src="media/img/icons-logos/recipe-ico.png" height="24" width="24"> Recipes </a>
+          <a href="html/contact-page.html" class="navigation-item"> <img src="media/img/icons-logos/phone-ico.png" height="24" width="24"> Contact </a>
+        </div>
+      </nav>
+    </header>
+    <div class="content-container">
+      <div class="main-banner">
+        <h1> Explore Baking </h1>
+        <p>
+          Your one-stop shop for all sorts of baking recipes,<br>
+          from classic recipes for beginners to new, exotic finds for the adventurous,<br>
+          Explore Baking is a haven for bakers of all kinds.
+        </p>
+        <br><a href="html/recipe-page.html"><b> Start Baking! </b></a>
       </div>
-    </center>
+      <div class="section-header"><h1> Our Most Recent Recipe </h1></div>
+      <div class="featured-content-container">
+        <div class="img-container"><img src="media/img/recipes/banoffeepie1.jpg"></div>
+        <div class="desc-container">
+            <h2> BANOFFEE PIE </h2>
+            This recipe combines a crunchy <br> 
+            graham cracker crust, soft and <br>
+            sweet dulce de leche, thick slices <br> 
+            of fresh banana, and a mountain of <br>
+            billowy whipped cream.
+            <br><br><a href="html/recipes/recipe-3.html" class="desc-container-button"> Check it Out! </a>
+        </div>
+      </div>
+      <div class="section-header"><h1> Visitor's Favorite Recipe </h1></div>
+      <div class="featured-content-container">
+        <div class="desc-container">
+          <h2> MRS. FIELDS CHOCOLATE <br> CHIP COOKIES </h2>
+          If you've always wanted to recreate <br>
+          Mrs. Fields cookies at home, this <br>
+          recipe works beautifully.
+          <br><br><a href="html/recipes/recipe-3.html" class="desc-container-button"> Check it Out! </a>
+      </div>
+        <div class="img-container"><img src="media/img/recipes/chocolatechipcookies1.jpg"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-container">
+      All Rights Reserved &copy; Copyright 2022<br>
+      Made by Jedidiah Ramos & Carl Piramide
+    </footer>
   </body>
-
 </html>
