@@ -61,7 +61,7 @@ a.navigation-item-focused {
     margin: 150px 150px 0px 150px;
     padding: 30px;
     text-align: center;
-	background-color:  rgb(241, 241, 241);
+	background-color:  rgba(241, 241, 241, 0.8);
 }
 
 .main-banner {
@@ -159,7 +159,7 @@ a.desc-container-button:hover {
     font-family: Segoe UI;
     color: white;
     text-align: center;
-    background-color: rgb(204, 108, 29);
+    background-color: rgba(204, 108, 29, 0.9);
 }
 
 form.search-bar input[type=text] {
@@ -307,6 +307,8 @@ div.box-desc {
 table {
 	width: 100%;
 	font-size: 20px;
+    text-align: left;
+    text-indent: 5px;
 }
 
 table, th, td {
